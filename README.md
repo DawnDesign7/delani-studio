@@ -47,7 +47,7 @@ Delani Studio Live Link: [Delani Studio](https://.github.io/reponame)
 ​
 # Contact information
 * Email: [Email](dawnmoraa@gmail.com)
-* Phone number: [Phone](tel:+254 700 039539)
+
 ​
 # License and Copyright information
 ​
