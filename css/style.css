@@ -1,9 +1,10 @@
 /* First Background*/
-/* Container holding the image and the text */
+/* Container holding the background image and the text */
 .container {
   position: relative;
   text-align: center;
   color: white;
+  padding-bottom: 120px;
 }
 /* Centered text */
 .centered {
@@ -28,4 +29,21 @@ li {
   position: relative;
   text-align: center;
   color: white;
+}
+.about {
+  text-align: center;
+  line-height: normal;
+}
+.box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px 2em;
+}
+
+.box :first-child {
+    align-self: center;
+}
+
+h2 {
+  text-align: center;
 }
