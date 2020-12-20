@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Delani Studio</title>
+    <link rel="stylesheet" href="/css/bootsrap.css">
     <link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
@@ -11,34 +12,36 @@
       <img src="static/assets/backgrounds/h_img.jpg" alt="Background image"
       width="120%">
       <div class="centered">
-        <img src="static/assets/logo/logo.png" alt="Delani Logo"><p>WELCOME<br>
+        <img src="static/assets/logo/logo.png" alt="Delani Logo"><p style="
+        font-size:30px">WELCOME<br>
         TO DELANI STUDIO <br> </p>
         <div class="motto">
-          <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS
+          <p style="font-size:14px">AMAZING PEOPLE ARE MAKING AMAZING DESIGNS
           IN A FUN ENVIRONMENT</p>
         </div>
-        <img src="static/assets/mouse_click.png" alt="Mouse Icon">
+        <br>
+        <img class="bottom-center"src="static/assets/mouse_click.png" alt="Mouse Icon">
       </div>
     </div>
 
 <!--About Section-->
     <div class="about">
       <h2>ABOUT US</h2>
-      <p>When you work with us, you are part of a team of commited
-        collaborators. All aspects of our software development process are intergrated,
-        interactive <br> and agile.<br>
-        Our approach unifies design, development and product management to create
-        exceptional products. <br>
-        We start each project by understanding your business goals, the user's needs
-        and the product requirements <br>
-        Then we help translate them into effective and elegant solutions.
-      </p>
+            <p>When you work with us, you are part of a team of commited
+          collaborators. All aspects of our software development process are intergrated,
+          interactive <br> and agile.<br></p>
+        <p>Our approach unifies design, development and product management to create
+          exceptional products.</p> <br>
+        <p>We start each project by understanding your business goals, the user's needs
+          and the product requirements</p><br>
+        <p>Then we help translate them into effective and elegant solutions.</p>
+        </p>
     </div>
 <br>
 
 <!--Services background image-->
     <div class="container2">
-      <img src="static/assets/backgrounds/s_image.jpg" alt="laptop background image" height="350">
+      <img src="static/assets/backgrounds/s_image.jpg" alt="laptop background image" height="350" width="100%">
         <div class="centered">
           <p>SERVICES</p>
           <p>Before we sign a contract or write a  line of code our team will spend
@@ -51,22 +54,62 @@
     </div>
 
 <!--What we do-->
+
+  <!-- Tried horizontal list approach
     <div class="services">
       <ul id="services">
         <li> <img src="static/assets/services_icons/design_icon.png" alt="design icon">DESIGN</li>
         <li> <img src="static/assets/services_icons/dev_icon.png" alt="dev icon">DEVELOPMENT</li>
         <li> <img src="static/assets/services_icons/product_icon.png" alt="product icon">PRODUCT MANAGEMENT</li>
       </ul>
-
     </div>
+  -->
+  <div class="services">
+     <h2>WHAT WE DO</h2>
+     <br>
+     <div class="box">
+       <!-- design icon -->
+       <div class="design">
+         <img src="static/assets/services_icons/design_icon.png" alt="design icon">
+         <p>DESIGN</p>
+         <div class="hide">
+           <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.</p>
+           <p>Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
+         </div>
+       </div>
+       <!-- dev icon       -->
+       <div class="development">
+         <img src="static/assets/services_icons/dev_icon.png" alt="development icon">
+         <p>DEVELOPMENT</p>
+         <div class="hide">
+           <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
+           <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
+         </div>
+       </div>
+       <!-- product icon -->
+       <div class="production">
+         <img src="static/assets/services_icons/product_icon.png" alt="product icon">
+         <p>PRODUCT MANAGEMENT</p>
+         <div class="hide">
+           <p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.</p>
+           <p>This iterative process allows for changes as business requirements evolve.</p>
+         </div>
+       </div>
+     </div>
+   </div>
+
+
 
 <!--Portfolio-->
     <div class="portfolio">
-      <ul id="portfolio">
+      <h2>PORTFOLIO</h2>
+      <ul id="portfolio1">
         <li> <img src="static/assets/portfolio/work4.jpg" alt=""> </li>
         <li> <img src="static/assets/portfolio/work3.jpg" alt=""> </li>
         <li> <img src="static/assets/portfolio/work2.jpg" alt=""> </li>
         <li> <img src="static/assets/portfolio/work1.jpg" alt=""> </li>
+      </ul>
+      <ul id="portfolio2">
         <li> <img src="static/assets/portfolio/work5.jpg" alt=""> </li>
         <li> <img src="static/assets/portfolio/work6.jpg" alt=""> </li>
         <li> <img src="static/assets/portfolio/work7.jpg" alt=""> </li>
@@ -106,6 +149,10 @@
       </ul>
     </div>
 
+    <footer>
+      <p>DELANI STUDIO</p>
+      <p>2020</p>
+    </footer>
 
   </body>
 </html>
