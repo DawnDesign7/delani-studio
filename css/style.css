@@ -12,3 +12,15 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+/*Second Background*/
+
+.container2 {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+li {
+  display:inline;
+}
