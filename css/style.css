@@ -24,3 +24,8 @@
 li {
   display:inline;
 }
+.contact {
+  position: relative;
+  text-align: center;
+  color: white;
+}
