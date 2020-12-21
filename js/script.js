@@ -26,3 +26,5 @@ function showProduct() {
     hide.style.display = "none";
   }
 }
+
+//Hover effect
