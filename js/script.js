@@ -33,11 +33,14 @@ function showProduct() {
 
 //Business Logic
 
-$(document).getElementById(function() 
+//EventListener and alerts.
+input.addEventListener("keyup", function(event) {
+});
+$(document).getElementById(function()
   $('#clientForm').keyup(function(event) {
     if (event.keyCode === 13) {
       event.preventDefault();
-      document.getElementByNmae("contact").click();
+      document.getElementByName("contact").click();
      }
     var name = $("#name").val();
     var email = $("#email").val();
@@ -58,3 +61,5 @@ $(document).getElementById(function()
       }
   });
 });
+
+//MailChimp API

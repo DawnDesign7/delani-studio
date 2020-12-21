@@ -1,3 +1,6 @@
+* font-family: 'Fira Sans', sans-serif;
+
+
  /*Responsiveness
  /* For mobile phones: */
  [class*="col-"] {
@@ -119,7 +122,7 @@ footer{
 .text {
   background-color: #ED7F2E;
   font-weight: bold;
-  color: none;
+  color: white;
   font-size: 16px;
   padding: 16px 32px;
 }
