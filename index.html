@@ -70,27 +70,27 @@
      <div class="box">
        <!-- design icon -->
        <div class="design">
-         <img src="static/assets/services_icons/design_icon.png" alt="design icon">
+         <img src="static/assets/services_icons/design_icon.png" alt="design icon" onclick="showDesign()">
          <p>DESIGN</p>
-         <div class="hide">
+         <div id="design">
            <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.</p>
            <p>Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
          </div>
        </div>
        <!-- dev icon       -->
        <div class="development">
-         <img src="static/assets/services_icons/dev_icon.png" alt="development icon">
+         <img src="static/assets/services_icons/dev_icon.png" alt="development icon" onclick="showDevelopment()">
          <p>DEVELOPMENT</p>
-         <div class="hide">
+         <div id="development">
            <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
            <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
          </div>
        </div>
        <!-- product icon -->
        <div class="production">
-         <img src="static/assets/services_icons/product_icon.png" alt="product icon">
+         <img src="static/assets/services_icons/product_icon.png" alt="product icon" onclick="showProduct()">
          <p>PRODUCT MANAGEMENT</p>
-         <div class="hide">
+         <div id="product">
            <p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.</p>
            <p>This iterative process allows for changes as business requirements evolve.</p>
          </div>
@@ -153,4 +153,5 @@
     </footer>
 
   </body>
+  <script src="js/script.js" charset="utf-8"></script>
 </html>
