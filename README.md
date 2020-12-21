@@ -2,7 +2,7 @@
 Delani Studio
 ​
 # Project description
-Landing page for a design studio
+Landing page for a fictional design studio to practice HTML, CSS, Bootstrap, and Javascript.
 ​
 # Author(s) information
 Dawn M. Ndemo
@@ -11,7 +11,7 @@ Dawn M. Ndemo
 # Setup instructions
 ​
 1. Clone the repo:
-    `git clone ...
+    `git clone https://github.com/DawnDesign7/delani-studio`
 ​
 1. Switch into the directory
     `cd delani-studio`
@@ -28,22 +28,19 @@ Dawn M. Ndemo
 * Get user second name
 ​
 ​
-​
-​
 # Technologies used
 ​
 * HTML, CSS, Javascript
 * JQuery
 * Bootstrap
-* Any other
 ​
 # Screenshots
 ​
-![App Screenshot](link to the image)
+![App Screenshot](/screencapture.png)
 ​
 # Live link
 ​
-Delani Studio Live Link: [Delani Studio](https://.github.io/reponame)
+Delani Studio Live Link: [Delani Studio](https://dawndesign7.github.io/delani-studio/)
 ​
 # Contact information
 * Email: [Email](dawnmoraa@gmail.com)
