@@ -3,29 +3,29 @@
 // Toggle What We do
 //design
 function showDesign() {
-  var hide = document.getElementById("design");
-  if (hide.style.display === "none") {
-    hide.style.display = "block";
+  var des = document.getElementById("design");
+  if (design.style.display === "none") {
+    des.style.display = "block";
   } else {
-    hide.style.display = "none";
+    des.style.display = "none";
   }
 }
 //development
 function showDevelopment() {
-  var hide = document.getElementById("development");
-  if (hide.style.display === "none") {
-    hide.style.display = "block";
+  var dev = document.getElementById("development");
+  if (dev.style.display === "none") {
+    dev.style.display = "block";
   } else {
-    hide.style.display = "none";
+    dev.style.display = "none";
   }
 }
 //product
 function showProduct() {
-  var hide = document.getElementById("product");
-  if (hide.style.display === "none") {
-    hide.style.display = "block";
+  var prod = document.getElementById("product");
+  if (prod.style.display === "none") {
+    prod.style.display = "block";
   } else {
-    hide.style.display = "none";
+    dev.style.display = "none";
   }
 }
 
