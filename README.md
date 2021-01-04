@@ -19,13 +19,7 @@ Dawn M. Ndemo
 1. Run the launch command
     `run`
 ​
-​
-# BDD
-* Get user input
-    - convert user input into a number
-    - double that number
-* Get user name
-* Get user second name
+
 ​
 ​
 # Technologies used
