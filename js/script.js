@@ -29,8 +29,6 @@ function showProduct() {
   }
 }
 
-
-
 //Business Logic
 
 //EventListener and alerts.
