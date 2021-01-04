@@ -81,8 +81,16 @@ footer{
   text-align: center;
 
 }
-
-
+/* Show and Hide What we do*/
+#design {
+  display: none;
+}
+#development {
+  display: none;
+}
+#product {
+  display: none;
+}
 
 /*hover effect*/
 .container {
