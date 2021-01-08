@@ -63,28 +63,37 @@
      <br>
      <div class="box">
        <!-- design icon -->
-       <div class="aboutDesign">
-         <img src="static/assets/services_icons/design_icon.png" alt="design icon" onclick="showDesign()">
-         <p>DESIGN</p>
-         <div id="design" onclick="showDesign()">
-           <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.</p>
-           <p>Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
-         </div>
-       </div>
+       <div id="design">
+          <div class="design-show">
+            <img src="static/assets/services_icons/design_icon.png" alt="design icon">
+            <p>DESIGN</p>
+          </div>
+          <div class="design-hide">
+            <h3>DESIGN</h3>
+            <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.</p>
+            <p>Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
+          </div>
+        </div>
        <!-- dev icon       -->
-       <div class="aboutDevelopment">
-         <img src="static/assets/services_icons/dev_icon.png" alt="development icon" onclick="showDevelopment()">
-         <p>DEVELOPMENT</p>
-         <div id="development">
+       <div id="development">
+         <div class="development-show">
+           <img src="static/assets/services_icons/dev_icon.png" alt="development icon">
+           <p>DEVELOPMENT</p>
+         </div>
+         <div class="development-hide">
+           <h3>DEVELOPMENT</h3>
            <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
            <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
          </div>
        </div>
        <!-- product icon -->
-       <div class="aboutProduction">
-         <img src="static/assets/services_icons/product_icon.png" alt="product icon" onclick="showProduct()">
-         <p>PRODUCT MANAGEMENT</p>
-         <div id="product">
+       <div id="product">
+          <div class="product-show">
+            <img src="static/assets/services_icons/product_icon.png" alt="product icon" onclick="showProduct()">
+            <p>PRODUCT MANAGEMENT</p>
+          </div>
+         <div class="development-hide">
+           <h3>PRODUCT MANAGEMENT</h3>
            <p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.</p>
            <p>This iterative process allows for changes as business requirements evolve.</p>
          </div>
@@ -227,7 +236,7 @@
     </footer>
 
   </body>
-  <script src="js/script.js" charset="utf-8"></script>
+  <script type="text/javascript" src="./js/script.js" charset="utf-8"></script>
 </html>
 
 
