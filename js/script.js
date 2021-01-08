@@ -2,32 +2,25 @@
 
 // Toggle What We do
 //design
-function showDesign() {
-  var des = document.getElementById("design");
-  if (design.style.display === "none") {
-    des.style.display = "block";
-  } else {
-    des.style.display = "none";
-  }
-}
+$(document).ready(function() {
+  $("#design").click(function() {
+    $(".design-show").toggle();
+    $(".design-hide").toggle();
+  });
+
 //development
-function showDevelopment() {
-  var dev = document.getElementById("development");
-  if (dev.style.display === "none") {
-    dev.style.display = "block";
-  } else {
-    dev.style.display = "none";
-  }
-}
+$(document).ready(function() {
+  $("#development").click(function() {
+    $(".development-show").toggle();
+    $(".development-hide").toggle();
+  });
 //product
-function showProduct() {
-  var prod = document.getElementById("product");
-  if (prod.style.display === "none") {
-    prod.style.display = "block";
-  } else {
-    dev.style.display = "none";
-  }
-}
+$(document).ready(function() {
+  $("#product").click(function() {
+    $(".product-show").toggle();
+    $(".product-hide").toggle();
+  });
+
 
 //Business Logic
 
