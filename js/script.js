@@ -25,6 +25,7 @@ $(document).ready(function() {
 //Business Logic
 
 //EventListener and alerts.
+var input = document.getElementById('clientForm')
 input.addEventListener("keyup", function(event) {
 });
 $(document).getElementById(function()
@@ -52,5 +53,3 @@ $(document).getElementById(function()
       }
   });
 });
-
-//MailChimp API
