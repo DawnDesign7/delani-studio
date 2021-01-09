@@ -65,16 +65,15 @@
        <!-- design icon -->
        <div id="design">
           <div class="design-show">
-            <img src="static/assets/services_icons/design_icon.png" alt="design icon">
+            <img src="static/assets/services_icons/design_icon.png" alt="design icon" id="image1">
             <p>DESIGN</p>
-          </div>
-          <div class="design-hide">
-            <h3>DESIGN</h3>
-            <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.</p>
-            <p>Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
+            <div id="description-one">
+              <p id="par1">Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.</p>
+              <p>Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
+            </div>
           </div>
         </div>
-       <!-- dev icon       -->
+       <!-- dev icon-->
        <div id="development">
          <div class="development-show">
            <img src="static/assets/services_icons/dev_icon.png" alt="development icon">
@@ -89,7 +88,7 @@
        <!-- product icon -->
        <div id="product">
           <div class="product-show">
-            <img src="static/assets/services_icons/product_icon.png" alt="product icon" onclick="showProduct()">
+            <img src="static/assets/services_icons/product_icon.png" alt="product icon">
             <p>PRODUCT MANAGEMENT</p>
           </div>
          <div class="development-hide">
@@ -181,15 +180,15 @@
 
 <!--Contact Us-->
 <div class="contact-section">
-      <h2>CONTACT US</h2>
+      <h3>CONTACT US</h3>
       <form id="clientForm">
         <label for="fname"></label>
         <input type="text" id="name" name="fname" placeholder="Name...">
         <label for="email"></label>
         <input type="email" id="email" name="email" placeholder="Email...">
+        <textarea id="message" name="message" rows="12" cols="70">Your message here...
+        </textarea>
       </form>
-      <textarea id="message" name="message" rows="12" cols="70" placeholder="Your message here">
-      </textarea>
 
 </div>
 
@@ -216,5 +215,5 @@
     </footer>
 
   </body>
-  <script type="text/javascript" src="./js/script.js" charset="utf-8"></script>
+  <script type="text/javascript" src="js/script.js" charset="utf-8"></script>
 </html>

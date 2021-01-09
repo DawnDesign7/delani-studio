@@ -1,26 +1,17 @@
 //User Interface
 
 // Toggle What We do
-//design
-$(document).ready(function() {
-  $("#design").click(function() {
-    $(".design-show").toggle();
-    $(".design-hide").toggle();
-  });
 
-//development
-$(document).ready(function() {
-  $("#development").click(function() {
-    $(".development-show").toggle();
-    $(".development-hide").toggle();
-  });
-//product
-$(document).ready(function() {
-  $("#product").click(function() {
-    $(".product-show").toggle();
-    $(".product-hide").toggle();
-  });
-
+$ (document).ready(function(){
+  $ ("#image1").click(function(){
+     $ ("#par1").show();
+     $("#image1").hide();
+  })
+  $ ("#par1").click(function(){
+    $ ("#image1").show();
+    $ ("#par1").hide();
+  })
+})
 
 //Business Logic
 
@@ -39,11 +30,11 @@ $(document).getElementById(function()
     var message = $("#message").val();
     var key = e.which;
     if (key == 13) {
-      if (name == "") {
+      if (name === "") {
       alert("Name is Missing"); //alert if name is not input
-      } else if (email == "") {
+    } else if (email === "") {
       alert("Email address is missing"); //alert if email is not input
-      } else if (message == "") {
+    } else if (message === "") {
       alert("Message is missing"); // alert if message is not input
       } else {
       $('#clientForm').submit();
